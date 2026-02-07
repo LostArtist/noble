@@ -1,0 +1,89 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Deep starry-night blue gradient -->
+    <linearGradient id="nightGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1d3a"></stop>
+      <stop offset="100%" stop-color="#020617"></stop>
+    </linearGradient>
+
+    <!-- Star glow -->
+    <radialGradient id="starGlow">
+      <stop offset="0%" stop-color="#ffffff"></stop>
+      <stop offset="100%" stop-color="#e6f0ff" stop-opacity="0.2"></stop>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1024" height="1024" rx="220" ry="220" fill="url(#nightGradient)"></rect>
+
+  <!-- Four-point curved star symbol -->
+  <!-- Star 1 -->
+  <path d="
+    M 200 260
+    C 200 230, 210 210, 220 200
+    C 230 210, 240 230, 240 260
+    C 270 260, 290 270, 300 280
+    C 290 290, 270 300, 240 300
+    C 240 330, 230 350, 220 360
+    C 210 350, 200 330, 200 300
+    C 170 300, 150 290, 140 280
+    C 150 270, 170 260, 200 260
+    Z" fill="url(#starGlow)"></path>
+
+  <!-- Star 2 -->
+  <path d="
+    M 820 320
+    C 820 290, 830 270, 840 260
+    C 850 270, 860 290, 860 320
+    C 890 320, 910 330, 920 340
+    C 910 350, 890 360, 860 360
+    C 860 390, 850 410, 840 420
+    C 830 410, 820 390, 820 360
+    C 790 360, 770 350, 760 340
+    C 770 330, 790 320, 820 320
+    Z" fill="url(#starGlow)"></path>
+
+  <!-- Star 3 -->
+  <path d="
+    M 720 760
+    C 720 735, 728 720, 736 712
+    C 744 720, 752 735, 752 760
+    C 777 760, 792 768, 800 776
+    C 792 784, 777 792, 752 792
+    C 752 817, 744 832, 736 840
+    C 728 832, 720 817, 720 792
+    C 695 792, 680 784, 672 776
+    C 680 768, 695 760, 720 760
+    Z" fill="url(#starGlow)"></path>
+
+  <!-- Star 4 -->
+  <path d="
+    M 320 760
+    C 320 735, 328 720, 336 712
+    C 344 720, 352 735, 352 760
+    C 377 760, 392 768, 400 776
+    C 392 784, 377 792, 352 792
+    C 352 817, 344 832, 336 840
+    C 328 832, 320 817, 320 792
+    C 295 792, 280 784, 272 776
+    C 280 768, 295 760, 320 760
+    Z" fill="url(#starGlow)"></path>
+
+  <!-- Star 5 (small subtle one) -->
+  <path d="
+    M 540 180
+    C 540 160, 546 148, 552 142
+    C 558 148, 564 160, 564 180
+    C 584 180, 596 186, 602 192
+    C 596 198, 584 204, 564 204
+    C 564 224, 558 236, 552 242
+    C 546 236, 540 224, 540 204
+    C 520 204, 508 198, 502 192
+    C 508 186, 520 180, 540 180
+    Z" fill="url(#starGlow)" opacity="0.9"></path>
+
+  <!-- Centered title -->
+  <text x="512" y="540" text-anchor="middle" dominant-baseline="middle" font-family="JetBrains Mono, Fira Code, monospace" font-size="160" letter-spacing="8" fill="#f8fafc" font-weight="600">
+    noble
+  </text>
+</svg>
