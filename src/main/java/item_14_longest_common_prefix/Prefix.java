@@ -1,4 +1,4 @@
-package prefix_length;
+package item_14_longest_common_prefix;
 
 public class Prefix {
     public String longestCommonPrefix(String[] strs) {

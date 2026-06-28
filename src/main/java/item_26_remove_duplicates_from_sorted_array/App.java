@@ -1,6 +1,4 @@
-package remove_duplicates;
-
-import remove_duplicates.Solution;
+package item_26_remove_duplicates_from_sorted_array;
 
 class App {
     public static void main(String[] args) {

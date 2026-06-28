@@ -1,7 +1,4 @@
-package remove_duplicates;
-
-import java.util.HashSet;
-import java.util.Set;
+package item_26_remove_duplicates_from_sorted_array;
 
 class Solution {
 
